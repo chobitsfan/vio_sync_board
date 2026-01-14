@@ -2076,48 +2076,6 @@
 			)
 		)
 	)
-	(sheet
-		(at 140.97 17.78)
-		(size 138.43 106.68)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "93fe8785-ff9a-47e3-b187-7376912d11bf")
-		(property "Sheetname" "testing"
-			(at 140.97 17.0684 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "testing.kicad_sch"
-			(at 140.97 125.0446 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "vio_sync_board"
-				(path "/a602f21e-3630-4741-8b13-b35321203336"
-					(page "2")
-				)
-			)
-		)
-	)
 	(sheet_instances
 		(path "/"
 			(page "1")
