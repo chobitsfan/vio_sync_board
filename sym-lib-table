@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "pololu_2840")(type "KiCad")(uri "${KIPRJMOD}/pololu_2840.kicad_sym")(options "")(descr ""))
+)
