@@ -38,7 +38,7 @@
 		(allow_soldermask_bridges_in_footprints no)
 		(tenting front back)
 		(pcbplotparams
-			(layerselection 0x00000000_00000000_55555555_5755f5ff)
+			(layerselection 0x00000000_00000000_55555555_575555ff)
 			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
 			(disableapertmacros no)
 			(usegerberextensions no)
@@ -1731,100 +1731,32 @@
 		(sheetname "/")
 		(sheetfile "vio_sync_board.kicad_sch")
 		(attr through_hole)
-		(fp_line
-			(start -4.91 -1.5)
-			(end 4.91 -1.5)
+		(fp_rect
+			(start -5.1 -11.1)
+			(end 5.1 1.6)
 			(stroke
-				(width 0.12)
+				(width 0.1)
 				(type default)
 			)
+			(fill no)
 			(layer "F.SilkS")
-			(uuid "3741043e-b0fd-4189-b5ed-ed75a85296f1")
+			(uuid "5e5740af-3f23-433d-90a0-be20648b837a")
 		)
-		(fp_line
-			(start -4.91 1.5)
-			(end -4.91 -1.5)
-			(stroke
-				(width 0.12)
-				(type default)
-			)
-			(layer "F.SilkS")
-			(uuid "969cdbbe-25d7-4426-a94e-3aa5f3a56ed0")
-		)
-		(fp_line
-			(start -2.54 -1.5)
-			(end -2.54 1.5)
-			(stroke
-				(width 0.12)
-				(type default)
-			)
-			(layer "F.SilkS")
-			(uuid "0b90db5d-fcbe-443d-aeb9-8cc2adcc7761")
-		)
-		(fp_line
-			(start 4.91 -1.5)
-			(end 4.91 1.5)
-			(stroke
-				(width 0.12)
-				(type default)
-			)
-			(layer "F.SilkS")
-			(uuid "df52e43f-94c1-4d14-8435-1248a56f234a")
-		)
-		(fp_line
-			(start 4.91 1.5)
-			(end -4.91 1.5)
-			(stroke
-				(width 0.12)
-				(type default)
-			)
-			(layer "F.SilkS")
-			(uuid "26e86a5b-fbc5-4746-a5be-41994c55ea32")
-		)
-		(fp_line
-			(start -4.66 -1.25)
-			(end 4.66 -1.25)
+		(fp_rect
+			(start -5.9 -11.9)
+			(end 6.1 2.1)
 			(stroke
 				(width 0.05)
 				(type default)
 			)
+			(fill no)
 			(layer "F.CrtYd")
-			(uuid "b89d7c7b-e269-4b42-8465-787fbce4f5e4")
-		)
-		(fp_line
-			(start -4.66 1.25)
-			(end -4.66 -1.25)
-			(stroke
-				(width 0.05)
-				(type default)
-			)
-			(layer "F.CrtYd")
-			(uuid "9173fce7-90fa-47c1-a01a-d80b403b0e5b")
-		)
-		(fp_line
-			(start 4.66 -1.25)
-			(end 4.66 1.25)
-			(stroke
-				(width 0.05)
-				(type default)
-			)
-			(layer "F.CrtYd")
-			(uuid "796ec7fd-b23a-4fec-a4db-ac65687fa7a8")
-		)
-		(fp_line
-			(start 4.66 1.25)
-			(end -4.66 1.25)
-			(stroke
-				(width 0.05)
-				(type default)
-			)
-			(layer "F.CrtYd")
-			(uuid "19c69796-2510-4ca6-931d-cf51bc0eee3d")
+			(uuid "a422f236-dfca-41ec-a547-fc5589a51e61")
 		)
 		(pad "1" thru_hole oval
 			(at -3.81 0)
-			(size 1.2 2)
-			(drill 0.8)
+			(size 1.7 2)
+			(drill 1.02)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 43 "unconnected-(U1-SHDN-Pad1)")
@@ -1835,8 +1767,8 @@
 		)
 		(pad "2" thru_hole oval
 			(at -1.27 0)
-			(size 1.2 2)
-			(drill 0.8)
+			(size 1.7 2)
+			(drill 1.02)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 12 "Net-(A1-3V3)")
@@ -1847,8 +1779,8 @@
 		)
 		(pad "3" thru_hole oval
 			(at 1.27 0)
-			(size 1.2 2)
-			(drill 0.8)
+			(size 1.7 2)
+			(drill 1.02)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 3 "Net-(U1-GND)")
@@ -1859,8 +1791,8 @@
 		)
 		(pad "4" thru_hole oval
 			(at 3.81 0)
-			(size 1.2 2)
-			(drill 0.8)
+			(size 1.7 2)
+			(drill 1.02)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 42 "Net-(IC1-LV)")
@@ -2316,7 +2248,7 @@
 		)
 	)
 	(gr_rect
-		(start 46 47.5)
+		(start 46 46.5)
 		(end 91 102.5)
 		(stroke
 			(width 0.05)

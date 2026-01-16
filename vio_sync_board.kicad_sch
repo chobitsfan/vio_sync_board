@@ -1938,7 +1938,7 @@
 				)
 			)
 		)
-		(property "Footprint" "2595"
+		(property "Footprint" "pololu_2595:2595"
 			(at 128.27 160.96 0)
 			(effects
 				(font
