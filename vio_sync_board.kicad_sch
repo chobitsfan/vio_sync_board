@@ -3330,7 +3330,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 106.3752 40.64 0)
 			(effects
 				(font
@@ -3471,7 +3471,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 130.5052 40.64 0)
 			(effects
 				(font
@@ -3541,7 +3541,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 126.492 58.42 90)
 			(effects
 				(font
@@ -3601,7 +3601,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x15_Pin"
+		(property "Value" "IMU_PI_CAM"
 			(at 22.225 19.05 0)
 			(effects
 				(font
@@ -3718,7 +3718,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 151.892 58.42 90)
 			(effects
 				(font
