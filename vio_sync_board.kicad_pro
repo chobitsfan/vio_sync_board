@@ -489,7 +489,7 @@
       "netlist": "",
       "plot": "out/",
       "pos_files": "",
-      "specctra_dsn": "",
+      "specctra_dsn": "test/vio_sync_board.dsn",
       "step": "",
       "svg": "",
       "vrml": ""
