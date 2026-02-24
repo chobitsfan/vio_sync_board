@@ -2552,7 +2552,7 @@
 		)
 		(uuid "36e75b58-86a9-4764-8f4a-0373fa7fcedf")
 	)
-	(label "TSYNC"
+	(label "GND"
 		(at 116.84 90.17 0)
 		(effects
 			(font
@@ -2562,7 +2562,7 @@
 		)
 		(uuid "380c3b8c-45fb-458d-a9da-293aa85ce263")
 	)
-	(label "GND"
+	(label "VSYS"
 		(at 116.84 82.55 0)
 		(effects
 			(font
@@ -2762,7 +2762,7 @@
 		)
 		(uuid "fd1b7ea6-b09f-48c0-abff-9f4177e0b408")
 	)
-	(label "VSYS"
+	(label "TSYNC"
 		(at 116.84 92.71 0)
 		(effects
 			(font
